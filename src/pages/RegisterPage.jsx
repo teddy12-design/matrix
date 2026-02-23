@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 
 const RegisterPage = () => {
+    const { register } = useAuth();
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -10,6 +13,8 @@ const RegisterPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        register(formData.name, formData.email);
+        navigate('/dashboard');
     };
 
     return (
