@@ -41,7 +41,7 @@ const ExploreMapPage = () => {
                 ))}
             </div>
 
-            <div className="flex gap-4" style={{ flexWrap: 'wrap' }}>
+            <div className="flex gap-4 stack">
                 <div style={{ flex: '1.5', minWidth: '300px' }}>
                     <div style={{
                         height: '500px',

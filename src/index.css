@@ -142,22 +142,37 @@ textarea:focus {
 .gap-4 {
   gap: 1rem;
 }
-.gap-6 { gap: 1.5rem; }
-.gap-8 { gap: 2rem; }
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.stack {
+  display: flex;
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
   :root {
     --padding: 1rem;
   }
-  
-  h1 { font-size: 2rem !important; }
-  h2 { font-size: 1.5rem !important; }
-  
-  .flex {
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .stack {
     flex-direction: column !important;
   }
-  
+
   .navbar-links {
     display: none !important;
   }
@@ -165,11 +180,11 @@ textarea:focus {
   .mobile-hide {
     display: none !important;
   }
-  
+
   .card {
     padding: 1rem;
   }
-  
+
   section {
     padding: 3rem 0 !important;
   }

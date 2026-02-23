@@ -14,7 +14,7 @@ const SubmitProblemPage = () => {
                 <h1 style={{ marginBottom: '1rem' }}>Report a New Problem</h1>
                 <p style={{ marginBottom: '3rem' }}>Provide as much detail as possible to help city officials address the issue quickly.</p>
 
-                <div className="flex gap-8" style={{ flexWrap: 'wrap-reverse' }}>
+                <div className="flex gap-8 stack">
                     <div style={{ flex: '1.5', minWidth: '300px' }}>
                         <div className="card">
                             <form className="flex gap-6" style={{ flexDirection: 'column' }}>

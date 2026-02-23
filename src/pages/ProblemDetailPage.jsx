@@ -26,7 +26,7 @@ const ProblemDetailPage = () => {
 
     return (
         <div className="container" style={{ padding: '3rem 0' }}>
-            <div className="flex gap-8" style={{ flexWrap: 'wrap' }}>
+            <div className="flex gap-8 stack">
                 {/* Main Content */}
                 <div style={{ flex: '2', minWidth: '300px' }}>
                     <div className="flex items-center gap-4" style={{ marginBottom: '1.5rem' }}>

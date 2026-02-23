@@ -16,7 +16,7 @@ const DashboardPage = () => {
                 <a href="/submit" className="btn btn-primary">Report New Problem</a>
             </div>
 
-            <div className="flex gap-8" style={{ flexWrap: 'wrap' }}>
+            <div className="flex gap-8 stack">
                 {/* Stats Summary */}
                 <div style={{ flex: '1', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                     {[

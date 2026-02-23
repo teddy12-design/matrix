@@ -25,7 +25,7 @@ const LandingPage = () => {
 
             {/* Mission Section */}
             <section style={{ padding: '5rem 0' }}>
-                <div className="container flex items-center justify-between" style={{ gap: '4rem', flexWrap: 'wrap' }}>
+                <div className="container flex items-center justify-between stack" style={{ gap: '4rem' }}>
                     <div style={{ flex: '1', minWidth: '300px' }}>
                         <h2 style={{ fontSize: '2rem' }}>Our Mission</h2>
                         <p>
@@ -55,7 +55,7 @@ const LandingPage = () => {
             <section style={{ padding: '5rem 0', backgroundColor: 'white' }}>
                 <div className="container">
                     <h2 className="text-center" style={{ marginBottom: '4rem' }}>How It Works</h2>
-                    <div className="flex gap-4" style={{ flexWrap: 'wrap', justifyContent: 'center' }}>
+                    <div className="flex gap-4 stack" style={{ justifyContent: 'center' }}>
                         {[
                             {
                                 title: 'Report',
